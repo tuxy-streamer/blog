@@ -1,0 +1,61 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Tuxy's Blog"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
+
+[[menu.main]]
+identifier = "Posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "Categories"
+name = "Categories"
+url = "/categories/"
+weight = 20
+
+[[menu.main]]
+identifier = "Tags"
+name = "Tags"
+url = "/tags/"
+weight = 30
+
+[[menu.main]]
+identifier = "Search"
+name = "Search"
+url = "/search/"
+weight = 40
+
+[[menu.main]]
+identifier = "Archive"
+name = "Archive"
+url = "/archive/"
+weight = 50
+
+[[menu.main]]
+identifier = "RSS"
+name = "RSS"
+url = "/index.xml"
+weight = 60
+
+[[menu.main]]
+identifier = "Me"
+name = "Me"
+url = "/me/"
+weight = 70
+
+[params]
+ShowReadingTime = true
+ShowToc = true
+TocOpen = true
+ShowBreadCrumbs = true
+ShowPostNavigationLinks = true
+ShowCodeCopyButtons = true
+comments = true
+ShowWordCount = true
+ShowFullTextInRSS=true
+ShowRssButtonInSectionTermList = true

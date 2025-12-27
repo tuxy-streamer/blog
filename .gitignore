@@ -1,0 +1,42 @@
+# Hugo's default ignore patterns
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node modules and dependencies
+node_modules/
+package-lock.json
+yarn.lock
+*.lock
+
+# Build directories and files
+public/
+resources/
+# Note: 'public' is where Hugo generates the static site, and 'resources' is for Hugo’s asset pipeline
+
+# Logs
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+*.swp
+*.swo
+
+# Other common patterns
+*.bak
+*.tmp
+*.orig
+*.out
+
+# Environment files
+.env
+
+# Coverage and testing
+coverage/
+test-results/
