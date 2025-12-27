@@ -1,13 +1,8 @@
 ---
-title: ""
+title: "{{ replace .File.ContentBaseName '-' ' ' | title }}"
 description: ""
-date: 2024-09-16T17:00:00+05:30
+date: "{{ .Date }}"
+categories: []
+tags: []
 draft: true
-categories:
-  - Folder Name
-tags:
-  - tags
-cover:
-  image: ""
-  alt: ""
 ---

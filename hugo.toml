@@ -1,115 +1,61 @@
-# Basic Settings
-theme = "hugo-texify3"
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Tuxy's Blog"
+theme = "PaperMod"
+
 [pagination]
 pagerSize = 10
 
-# Menu Configuration
 [[menu.main]]
-identifier = "posts"
-name = "posts"
+identifier = "Posts"
+name = "Posts"
 url = "/posts/"
-pre = """
-<svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M17,11H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm0,4H16a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2ZM11,9h6a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2ZM21,3H7A1,1,0,0,0,6,4V7H3A1,1,0,0,0,2,8V18a3,3,0,0,0,3,3H18a4,4,0,0,0,4-4V4A1,1,0,0,0,21,3ZM6,18a1,1,0,0,1-2,0V9H6Zm14-1a2,2,0,0,1-2,2H7.82A3,3,0,0,0,8,18V5H20Zm-9-4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Zm0,4h1a1,1,0,0,0,0-2H11a1,1,0,0,0,0,2Z"/>
-</svg>
-"""
-weight = 1
+weight = 10
 
 [[menu.main]]
-identifier = "rss"
-name = "rss"
+identifier = "Categories"
+name = "Categories"
+url = "/categories/"
+weight = 20
+
+[[menu.main]]
+identifier = "Tags"
+name = "Tags"
+url = "/tags/"
+weight = 30
+
+[[menu.main]]
+identifier = "Search"
+name = "Search"
+url = "/search/"
+weight = 40
+
+[[menu.main]]
+identifier = "Archive"
+name = "Archive"
+url = "/archive/"
+weight = 50
+
+[[menu.main]]
+identifier = "RSS"
+name = "RSS"
 url = "/index.xml"
-pre = """
-<svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M2.88,16.88a3,3,0,0,0,0,4.24,3,3,0,0,0,4.24,0,3,3,0,0,0-4.24-4.24Zm2.83,2.83a1,1,0,0,1-1.42-1.42,1,1,0,0,1,1.42,0A1,1,0,0,1,5.71,19.71ZM5,12a1,1,0,0,0,0,2,5,5,0,0,1,5,5,1,1,0,0,0,2,0,7,7,0,0,0-7-7ZM5,8a1,1,0,0,0,0,2,9,9,0,0,1,9,9,1,1,0,0,0,2,0,11.08,11.08,0,0,0-3.22-7.78A11.08,11.08,0,0,0,5,8Zm10.61.39A15.11,15.11,0,0,0,5,4,1,1,0,0,0,5,6,13,13,0,0,1,18,19a1,1,0,0,0,2,0A15.11,15.11,0,0,0,15.61,8.39Z"/>
-</svg>
-"""
-weight = 2
+weight = 60
 
 [[menu.main]]
-identifier = "about"
-name = "about"
-url = "/about/"
-pre = '''
-<svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M12 12c2.2 0 4-1.8 4-4s-1.8-4-4-4-4 1.8-4 4 1.8 4 4 4zm0 2c-2.5 0-7.5 1.3-7.5 3.9V22h15v-4.1c0-2.6-5-3.9-7.5-3.9z"/>
-</svg>
-'''
-weight = 3
+identifier = "Me"
+name = "Me"
+url = "/me/"
+weight = 70
 
-# Taxonomies
-[taxonomies]
-categories = "categories"
-tags = "tags"
-
-# Theme Settings
 [params]
-# Basic Parameters
-title = "Tuxy's blog"
-description = "Welcome to my space! Here you'll discover fascinating content and have the opportunity to learn and grow, regardless of your current skill level. Dive in and explore various topics that spark your interest."
-
-# Footer Configuration
-footnote = """
-Follow penguineo on <a class=link href=https://github.com/penguineo target=_blank rel=noopener>GitHub</a>,
-<a class=link href=/index.xml>RSS</a> |
-<a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en target=_blank rel=noopener>CC BY-NC-SA 4.0</a>
-"""
-
-# SEO and Customization
-keywords = [
-	"programming",
-	"tech",
-	"development",
-	"tutorials",
-	"coding",
-	"linux",
-	"networking",
-]
-customCSS = []
-customJS = []
-dateFormat = "January 2, 2006"
-emphasisWithDots = true
-since = "2024"
-toc = true
-showWordCount = true
-showReadingTime = true
-rootFontSize = "120%"
-math = true
-enableDuckDuckGoSearchBox = true
-numberedSubtitles = false
-
-# Comments and Support Settings
-[params.commentEngine]
-code = """
-<script src="https://giscus.app/client.js"
-        data-repo="penguineo/blog"
-        data-repo-id="R_kgDONC17xg"
-        data-category="General"
-        data-category-id="DIC_kwDONC17xs4Cplf5"
-        data-mapping="pathname"
-        data-strict="1"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="gruvbox_dark"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
-"""
-
-[params.buymeacoffee]
-code = """
-"""
-
-# Sharing Buttons
-[params.sharingbuttons]
-facebook = true
-twitter = true
-email = true
-linkedin = true
-reddit = true
-whatsapp = true
-hackernews = true
-telegram = true
+ShowReadingTime = true
+ShowToc = true
+TocOpen = true
+ShowBreadCrumbs = true
+ShowPostNavigationLinks = true
+ShowCodeCopyButtons = true
+comments = true
+ShowWordCount = true
+ShowFullTextInRSS=true
+ShowRssButtonInSectionTermList = true
