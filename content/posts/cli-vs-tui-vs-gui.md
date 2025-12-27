@@ -3,16 +3,8 @@ title: "Understanding Your Options: CLI, TUI, and GUI Explained"
 description: "Explore the differences between Command-Line Interface (CLI), Text-Based User Interface (TUI), and Graphical User Interface (GUI) to understand their unique features and benefits."
 date: 2024-09-16T17:00:00+05:30
 draft: false
-categories:
-  - Operating Systems
-  - User Interfaces
-tags:
-  - cli
-  - tui
-  - gui
-cover:
-  image: "images/computer/interface.jpg"
-  alt: "Computer interface"
+categories: [Operating Systems, User Interfaces]
+tags: [cli, tui, gui]
 ---
 
 ## Introduction
@@ -31,7 +23,7 @@ Let’s explore what makes each interface distinctive and how they can be levera
 
 ## What is a Command-Line Interface (CLI)?
 
-![CLI File Manager](cli-filemanager.png "CLI File Manager")
+![CLI File Manager](/images/file-manager/cli-filemanager.png)
 
 ### Overview of CLI
 
@@ -59,7 +51,7 @@ It's especially useful for experienced users comfortable with command syntax who
 
 ## What is a Text-Based User Interface (TUI)?
 
-![TUI File Manager](tui-filemanager.png "TUI File Manager")
+![TUI File Manager](/images/file-manager/tui-filemanager.png)
 
 ### Overview of TUI
 
@@ -86,7 +78,7 @@ It’s particularly useful for tasks like file management, system monitoring, an
 
 ## What is a Graphical User Interface (GUI)?
 
-![GUI File Manager](gui-filemanager.png "GUI File Manager")
+![GUI File Manager](/images/file-manager/gui-filemanager.png)
 
 ### Overview of GUI
 
@@ -134,7 +126,7 @@ It is best for users who prefer a visual and intuitive approach to managing thei
 
 ## Conclusion
 
-Choosing the right interface—CLI, TUI, or GUI—depends on your needs.
+Choosing the right interface (CLI, TUI, or GUI) depends on your needs.
 CLI excels in efficiency and control for advanced tasks and automation, TUI offers a more user-friendly text-based experience, and GUI provides a rich, visual interaction.
 Each has its strengths and is suited to different tasks and preferences.
 

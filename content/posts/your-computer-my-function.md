@@ -1,16 +1,16 @@
 ---
-title: "Your Computer, My Function: The Ultimate Code Swap!"
+title: "Your Computer My Function"
 description: "Imagine running a function on your computer that someone else wrote. Sound impossible? With RPC, it's a reality! Let's explore this cool tech together!"
 date: 2024-10-04T13:54:33+05:30
-draft: false
-categories: [Projects]
+categories: [Projects, Learning]
 tags: [rpc, python]
+draft: false
 ---
 
 **Have you ever wondered how your computer executes tasks across different devices ?**
 Imagine a world where your computer can tap into remote servers for executing functions.
 
-Welcome to the realm of Remote Procedure Calls (RPC)—the unsung hero behind seamless interactions.
+Welcome to the realm of Remote Procedure Calls (RPC) - the unsung hero behind seamless interactions.
 From the way Git syncs your projects across devices to how cloud services talk to your favorite apps,
 **RPC** is the secret sauce that makes it all happen.
 
@@ -105,7 +105,7 @@ flowchart TD
 
 #### Server
 
-1. Creating a script named server.py (You can name it anything you want.) that binds to a specific hostname:port (example: localhost:1331). This is the server that'll listen for requests.
+1. Creating a script named `` (You can name it anything you want.) that binds to a specific hostname:port (example: localhost:1331). This is the server that'll listen for requests.
    We can call this RPC Server.
 
 - We can use **socket** module for this purpose.
@@ -195,7 +195,7 @@ else:
 
 5. We're Done! Server is complete.
 
-- This is how your **server.py** should look like:
+- This is how your `server.py` should look like:
 
 ```python
 import json
@@ -327,7 +327,7 @@ def send_request(method,*args):
 ### Running scripts
 
 After writing those python scripts, you're left to do nothing but to run them.
-First run the server.py using `python server.py` or `python3 server.py`.
+First run the `server.py` using `python server.py` or `python3 server.py`.
 
 Then run the client.py using `python client.py` or `python3 client.py` and enjoy the output.
 Make sure to run them in different terminals cause the server will be continuously listening to **localhost:1331**.

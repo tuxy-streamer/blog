@@ -1,13 +1,10 @@
 ---
-title: "Discovering Terminals"
+title: "What is a terminal emulator ?"
 description: "A Beginner's Guide to What They Are and How They Power Your Computer"
 date: 2024-09-25T07:32:59+05:30
-draft: false
 categories: [Operating Systems, Terminals]
 tags: [terminal emulators]
-cover:
-  image: "images/computer/gnome-terminal-for-linux.png"
-  alt: "Gnome terminal"
+draft: false
 ---
 
 ## Introduction
@@ -31,52 +28,45 @@ Here's a brief overview of their evolution:
 ### Technology Evolution Timeline
 
 1. **1920s** - **Teleprinter**:
-
    - The early teleprinter devices, such as the **TeleType Model 15**, began to be used for transmitting typed messages over telegraph lines.
 
-   ![Teleprinter](teleprinter.webp "Teleprinter")
+   ![Teleprinter](/images/terminals/teleprinter.webp)
    **Teleprinter**
 
 2. **1930s** - **Teletyper (TTY)**:
-
    - The term "Teletyper" became commonly used to refer to devices that combined teleprinter functionality with typing.
 
 3. **1950s** - **Line Printer**:
-
    - Developed for high-speed printing of text and data, these were often used with early computers.
 
-   ![IBM 1403 Printer](ibm-1403-printer.jpg "IBM 1403 Printer")
+   ![IBM 1403 Printer](/images/terminals/ibm-1403-printer.jpg)
    **IBM 1403 Line Printer**
 
 4. **1960s** - **Terminals**:
-
    - The introduction of **Video Display Terminals (VDTs)** like the **IBM 2250** offered a way to interact with computers via screens and keyboards.
 
-   ![VDT Terminal](televideo925-terminal.jpg "VDT Terminal")
+   ![VDT Terminal](/images/terminals/televideo925-terminal.jpg)
    **Televideo925 Terminal**
 
 5. **1970s** - **CRT Terminals**:
-
    - **Computer terminals** with **cathode-ray tube (CRT) displays** became popular, providing real-time interaction with computers.
 
-   ![DEC VT100](dec-vt100.jpg "DEC VT100")
+   ![DEC VT100](/images/terminals/dec-vt100.jpg)
    **DEC VT-100**
 
 6. **1980s** - **Early Terminal Emulators**:
    - The development of **terminal emulators** like **Kermit** allowed personal computers to emulate the functionality of hardware terminals and interact with mainframes and minicomputers.
 
-![Kermit](kermit-terminal-emulator-pd.gif "Kermit")
+![Kermit](/images/terminals/kermit-terminal-emulator-pd.gif)
 **Kermit Terminal Emulator**
 
 ## Components of a Modern Terminal Emulator
 
 1. **Graphical Interface**: Provides the window where the terminal session is displayed.
-
    - **Input Handling**: Manages keyboard input and passes it to the [shell](../shell/introduction-to-shells.md).
    - **Output Display**: Renders the output from the shell in the terminal window.
 
 2. **Psuedoterminal (PTY)**: The name suggests it is a false terminal. This is a device that emulates/replicates the physical terminal.
-
    - **Master Side**: Master side is controlled by the terminal emulator which interacts with the user and the shell.
    - **Slave Side**: Slave side behaves like a traditional terminal, allowing the shell or application to communicate as if it were a physical terminal device.
 
