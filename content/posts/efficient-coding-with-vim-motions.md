@@ -2,9 +2,9 @@
 title: "Efficient coding with vim motions."
 description: "Explore how Vim motions enable lightning-fast code navigation and editing. Master the fundamental motion commands, text objects, and operator combinations to streamline your workflow and boost coding productivity."
 date: 2025-12-24T14:20:38+05:30
-draft: false
 Categories: ["Productivity", "Code Editor"]
 tags: ["vim", "motions", "efficiency", "navigation", "lsp"]
+draft: true
 ---
 
 When you hear vim is the best text editor, it isn't the performance or
