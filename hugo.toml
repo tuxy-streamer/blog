@@ -1,6 +1,55 @@
+baseURL = "https://tuxy-streamer.github.io/blog/"
 languageCode = "en-us"
 title = "Tuxy's Blog"
 theme = "PaperMod"
+timeZone = "Asia/Kolkata"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
+term = ["HTML", "RSS"]
+
+[params]
+author = "Tuxy"
+dateFormat = "January 2, 2006"
+ShowReadingTime = true
+ShowToc = true
+TocOpen = true
+ShowBreadCrumbs = true
+ShowPostNavigationLinks = true
+ShowCodeCopyButtons = true
+comments = true
+ShowWordCount = true
+ShowFullTextInRSS = true
+ShowRssButtonInSectionTermList = true
+showRecentPosts = true
+recentPostsCount = 10
+
+[params.commentEngine]
+code = """
+<script src="https://giscus.app/client.js"
+        data-repo="tuxy-streamer/blog"
+        data-repo-id="R_kgDONC17xg"
+        data-category="General"
+        data-category-id="DIC_kwDONC17xs4Cplf5"
+        data-mapping="pathname"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="gruvbox_dark"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+"""
 
 [pagination]
 pagerSize = 10
@@ -46,16 +95,3 @@ identifier = "Me"
 name = "Me"
 url = "/me/"
 weight = 70
-
-[params]
-dateFormat = "December 27, 2025"
-ShowReadingTime = true
-ShowToc = true
-TocOpen = true
-ShowBreadCrumbs = true
-ShowPostNavigationLinks = true
-ShowCodeCopyButtons = true
-comments = true
-ShowWordCount = true
-ShowFullTextInRSS = true
-ShowRssButtonInSectionTermList = true
