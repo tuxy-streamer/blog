@@ -165,7 +165,7 @@ Use `Esc` to get back to normal mode after inserting text.
 | `V`        | Select by using motions from current line of cursor     | Line  |
 | `Ctrl + v` | Select text like a block by using motions               | Block |
 
-## Command Line Mode:
+## Command Line Mode
 
 This mode helps to run commands.
 
