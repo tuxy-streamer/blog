@@ -1,7 +1,7 @@
 ---
 title: "Efficient coding with vim motions."
 description: "Explore how Vim motions enable lightning-fast code navigation and editing. Master the fundamental motion commands, text objects, and operator combinations to streamline your workflow and boost coding productivity."
-date: 2025-12-24T14:20:38+05:30
+date: 2026-01-09T14:20:38+05:30
 Categories: ["Productivity", "Code Editor", "Vim"]
 tags: ["vim motions", "efficiency", "navigation"]
 draft: false
