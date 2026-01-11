@@ -62,11 +62,11 @@ you can press `ESC` key to exit the current mode and switch it to normal mode.
 (Arrow keys equivalent)
 
 | Motion | Action |
-| ------ | ------ |
-| `j`    | Down   |
-| `k`    | Up     |
-| `h`    | Left   |
-| `l`    | Right  |
+| :----: | :----: |
+|  `j`   |  Down  |
+|  `k`   |   Up   |
+|  `h`   |  Left  |
+|  `l`   | Right  |
 
 #### Horizontal motion
 
@@ -83,31 +83,31 @@ you can press `ESC` key to exit the current mode and switch it to normal mode.
 1. Word wise:
 
    | Motion | Action                                   | Scope | Direction |
-   | ------ | ---------------------------------------- | ----- | --------- |
-   | `w`    | Move to first character of next word     | word  | Right     |
-   | `e`    | Move to last character of next word      | word  | Right     |
-   | `b`    | Move to first character of previous word | word  | Left      |
-   | `W`    | Move to first character of next WORD     | WORD  | Right     |
-   | `E`    | Move to last character of next WORD      | WORD  | Right     |
-   | `B`    | Move to first character of previous WORD | WORD  | Left      |
+   | :----: | :--------------------------------------- | :---: | :-------: |
+   |  `w`   | Move to first character of next word     | word  |   Right   |
+   |  `e`   | Move to last character of next word      | word  |   Right   |
+   |  `b`   | Move to first character of previous word | word  |   Left    |
+   |  `W`   | Move to first character of next WORD     | WORD  |   Right   |
+   |  `E`   | Move to last character of next WORD      | WORD  |   Right   |
+   |  `B`   | Move to first character of previous WORD | WORD  |   Left    |
 
 2. Line Border wise:
 
    | Motion | Action                                              | Direction |
-   | ------ | --------------------------------------------------- | --------- |
-   | `$`    | Move to last character of the line                  | Right     |
-   | `0`    | Move to first character of the line                 | Left      |
-   | `g_`   | Move to last non white-space character of the line  | Right     |
-   | `^`    | Move to first non white-space character of the line | Left      |
+   | :----: | :-------------------------------------------------- | :-------: |
+   |  `$`   | Move to last character of the line                  |   Right   |
+   |  `0`   | Move to first character of the line                 |   Left    |
+   |  `g_`  | Move to last non white-space character of the line  |   Right   |
+   |  `^`   | Move to first non white-space character of the line |   Left    |
 
 3. Character searching
 
-   | Motion    | Action                                         | Direction |
-   | --------- | ---------------------------------------------- | --------- |
-   | `f<char>` | Move to next `<char>` you type                 | Right     |
-   | `t<char>` | Move to just before next `<char>` you type     | Right     |
-   | `F<char>` | Move to previous `<char>` you type             | Left      |
-   | `T<char>` | Move to just before previous `<char>` you type | Left      |
+   |  Motion   | Action                                         | Direction |
+   | :-------: | :--------------------------------------------- | :-------: |
+   | `f<char>` | Move to next `<char>` you type                 |   Right   |
+   | `t<char>` | Move to just before next `<char>` you type     |   Right   |
+   | `F<char>` | Move to previous `<char>` you type             |   Left    |
+   | `T<char>` | Move to just before previous `<char>` you type |   Left    |
 
 After doing a character search using the above motion,
 you can go for next search character or the previous search character using:
@@ -123,9 +123,9 @@ you can go for next search character or the previous search character using:
 1. Page wise:
 
    | Motion | Action                 | Direction |
-   | ------ | ---------------------- | --------- |
-   | `G`    | Move to the first line | Up        |
-   | `gg`   | Move to the last line  | Down      |
+   | :----: | :--------------------- | :-------: |
+   |  `G`   | Move to the first line |    Up     |
+   |  `gg`  | Move to the last line  |   Down    |
 
 2. Block wise / Paragraph wise:
 
@@ -136,9 +136,9 @@ contiguous lines until the next empty line.
 > A blank line (only containing white space) is not a paragraph
 
 | Motion | Action                                   | Direction |
-| ------ | ---------------------------------------- | --------- |
-| `{`    | Move to the first character of paragraph | Up        |
-| `}`    | Move to the last character of paragraph  | Down      |
+| :----: | :--------------------------------------- | :-------: |
+|  `{`   | Move to the first character of paragraph |    Up     |
+|  `}`   | Move to the last character of paragraph  |   Down    |
 
 ## Insert Mode: Text insertion
 
@@ -146,33 +146,33 @@ This mode allows to insert text.
 Use `Esc` to get back to normal mode after inserting text.
 
 | Shortcut | Action                                        | Scope | Direction |
-| -------- | --------------------------------------------- | ----- | --------- |
-| `i`      | Insert text before the position of the cursor | Char  | Left      |
-| `a`      | Insert text after the position of the cursor  | Char  | Right     |
-| `I`      | Insert text at the start of the line          | Line  | Left      |
-| `A`      | Insert text at the end of the line            | Line  | Right     |
-| `o`      | Insert text on a new line above the cursor    | Line  | Down      |
-| `O`      | Insert text on a new line below the cursor    | Line  | Up        |
+| :------: | :-------------------------------------------- | :---: | :-------: |
+|   `i`    | Insert text before the position of the cursor | Char  |   Left    |
+|   `a`    | Insert text after the position of the cursor  | Char  |   Right   |
+|   `I`    | Insert text at the start of the line          | Line  |   Left    |
+|   `A`    | Insert text at the end of the line            | Line  |   Right   |
+|   `o`    | Insert text on a new line above the cursor    | Line  |   Down    |
+|   `O`    | Insert text on a new line below the cursor    | Line  |    Up     |
 
 ## Visual Mode: Text Selection
 
 This is a mode where you can select text.
 Use `Esc` to get back to normal mode after inserting text.
 
-| Shortcut   | Action                                                  | Scope |
-| ---------- | ------------------------------------------------------- | ----- |
-| `v`        | Select by using motions from current position of cursor | Char  |
-| `V`        | Select by using motions from current line of cursor     | Line  |
+|  Shortcut  | Action                                                  | Scope |
+| :--------: | :------------------------------------------------------ | :---: |
+|    `v`     | Select by using motions from current position of cursor | Char  |
+|    `V`     | Select by using motions from current line of cursor     | Line  |
 | `Ctrl + v` | Select text like a block by using motions               | Block |
 
 ## Command Line Mode
 
 This mode helps to run commands.
 
-| Shortcut       | Action                                   |
-| -------------- | ---------------------------------------- |
+|    Shortcut    | Action                                   |
+| :------------: | :--------------------------------------- |
 | `:<commands>`  | Run editor `<commands>`                  |
-| `/<keyword>`   | Search a `<keyword>` in the current file |
+|  `/<keyword>`  | Search a `<keyword>` in the current file |
 | `:!<commands>` | Run shell `<commands>`                   |
 
 During search mode, you can use
