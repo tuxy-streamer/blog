@@ -23,7 +23,7 @@ Let’s explore what makes each interface distinctive and how they can be levera
 
 ## What is a Command-Line Interface (CLI)?
 
-![CLI File Manager](/images/file-manager/cli-filemanager.png)
+![CLI File Manager](../../images/file-manager/cli-filemanager.png)
 
 ### Overview of CLI
 
@@ -51,7 +51,7 @@ It's especially useful for experienced users comfortable with command syntax who
 
 ## What is a Text-Based User Interface (TUI)?
 
-![TUI File Manager](/images/file-manager/tui-filemanager.png)
+![TUI File Manager](../../images/file-manager/tui-filemanager.png)
 
 ### Overview of TUI
 
@@ -78,7 +78,7 @@ It’s particularly useful for tasks like file management, system monitoring, an
 
 ## What is a Graphical User Interface (GUI)?
 
-![GUI File Manager](/images/file-manager/gui-filemanager.png)
+![GUI File Manager](../../images/file-manager/gui-filemanager.png)
 
 ### Overview of GUI
 
